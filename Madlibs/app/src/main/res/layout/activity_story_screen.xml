@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:layout_weight="0.67">
+
+        <Button
+            android:id="@+id/restart_button"
+            android:text="Make another story"
+            android:layout_gravity="center"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/finished_story"
+            android:layout_gravity="center"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:text="Your Mad Lib Story!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_above="@+id/finished_story"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="76dp" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/me" />
+    </RelativeLayout>
+
+</LinearLayout>

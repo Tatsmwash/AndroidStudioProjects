@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="true">Spinner Pics</string>
+
+    <integer-array name="pics">
+
+        <item>@drawable/imageh</item>
+        <item>@drawable/imagesbn</item>
+        <item>@drawable/imagesj</item>
+        <item>@drawable/imagesbv</item>
+        <item>@drawable/down</item>
+        <item>@drawable/imagesvb</item>
+    </integer-array>
+</resources>

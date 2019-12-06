@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PicturesSpinner</string>
+    <string-array name="countries_list">
+        <item>Picture 1</item>
+        <item>Picture 2</item>
+        <item>Australia</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>England</item>
+        <item>Finland</item>
+        <item>India</item>
+        <item>Saudi Arabia</item>
+        <item>Nepal</item>
+    </string-array>
+    <integer-array name="countries_flag_list">
+        <item>@drawable/images</item>
+        <item>@drawable/imageh</item>
+        <item>@drawable/imagesb</item>
+        <item>@drawable/imagesh</item>
+        <item>@drawable/imagesj</item>
+        <item>@drawable/imagesm</item>
+        <item>@drawable/imagesn</item>
+        <item>@drawable/imagesx</item>
+        <item>@drawable/imagesv</item>
+        <item>@drawable/imagesl</item>
+    </integer-array>
+</resources>
